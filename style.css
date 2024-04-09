@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.wrapper {
+    height: 500px;
+    width:300px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.wrapper-form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.weather-wrapper {
+    display: flex;
+}
+
+.city-div {
+    text-align: center;
+}
+
+.weather-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
